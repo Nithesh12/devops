@@ -68,5 +68,3 @@ sed -i s#IMAGE_HERE#us-central1-docker.pkg.dev/$PROJECT_ID/$REPOSITORY/$Docker_I
 gcloud container clusters get-credentials valkyrie-dev --zone us-east1-d
 kubectl create -f k8s/deployment.yaml
 kubectl create -f k8s/service.yaml
-
-
